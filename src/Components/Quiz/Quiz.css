@@ -1,0 +1,61 @@
+ .container{
+    display: flex;
+    flex-direction: column;
+    width: 750px ;
+    margin: auto;
+    margin-top: 150px;
+    background-color: rgb(238, 238, 242);
+    color: black;
+    gap:20px;
+    border-radius: 15px;
+}  
+.container h1{
+    margin: auto;
+    margin-top: 17px;
+} 
+.container hr{
+    border: 2px solid white;
+    margin-top: 10px;
+}
+.container ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid rgb(12, 12, 18);
+    margin: 15px;
+    font-size: 1.3rem;
+    cursor: pointer;
+    border-radius: 8px;
+
+
+}
+button{
+    margin: auto;
+    width: 150px ;
+    height: 50px;
+    background-color:rgb(146, 63, 146);
+    border-radius: 5px;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+.index{
+    margin: auto;
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+  
+ .container .correct{
+    background-color: rgb(121, 216, 121);
+    border-color: green;
+}
+.container .wrong{
+  background-color: rgb(246, 70, 70);
+  border-color: red;
+}
+  .container h3{
+    display: flex;
+   margin: auto;
+}
