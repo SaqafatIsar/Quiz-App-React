@@ -1,7 +1,7 @@
 import React, { useRef } from "react"
 import './Quiz.css'
 import { data } from '../../assets/data'
-import { resolveEnvPrefix } from "vite"
+// import { resolveEnvPrefix } from "vite"
 
 const Quiz=()=>{
 
